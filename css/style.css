@@ -7,6 +7,23 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
+#home .carousel-item h1
+{
+    transform: scale(1);
+    animation: move 4s;
+}
+
+@keyframes move {
+    0%{ 
+        transform: scale(0);
+    }
+   
+    100%{ 
+        transform: scale(1);
+    }
+   
+}
+
 ::selection {
     background-color: #1f1f1f;
     color: #fff;
